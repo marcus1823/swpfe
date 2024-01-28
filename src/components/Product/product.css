@@ -1,0 +1,25 @@
+.container-product {
+  /* background-image: url("/images/bon-cau.webp"); */
+  background-repeat: no-repeat;
+  background-position: cover;
+  position: relavtive;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  align-items: end;
+  justify-content: center;
+  padding: 10px;
+}
+
+.item-product {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+.item-product:hover {
+  background: orange;
+  color: white;
+}

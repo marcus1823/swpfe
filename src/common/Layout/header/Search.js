@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '/Users/mac/Visual Studio Code/SWP391/LOFI/SWP391/swp391fe/src/common/assets/images/logo.svg'
+// import logo from '/Users/mac/Visual Studio Code/SWP391/LOFI/SWP391/swp391fe/src/common/assets/images/logo.svg'
 import { Link } from'react-router-dom'
 export const Search = () => {
    // fixed Header
@@ -12,7 +12,7 @@ export const Search = () => {
       <section className='search'>
         <div className='container c_flex'>
           <div className='logo width '>
-            <img src={logo} alt='' />
+            <img src={'/images/logo.svg'} alt='' />
           </div>
 
           <div className='search-box f_flex'>
